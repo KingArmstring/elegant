@@ -255,13 +255,14 @@ li a:hover:not(.active){
 }
 
 .footer-list li{
-    display: inline-block;
+    display: block;
     list-style: none;
 }
 
-    .footer-list li a{
+.footer-list li a{
     color:silver ;
-    margin: 0 15px;     
+    margin: 0 15px; 
+    line-height: 40px;    
 }
 
 .polices-list li{
@@ -277,8 +278,9 @@ li a:hover:not(.active){
 
 .qa ul li{
     line-height: 40px;
+    
     list-style: none;
-    padding-left: 200px;
+    /* padding-left: 200px; */
     font-size: 22px;
     color:silver ;
 
