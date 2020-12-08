@@ -1,12 +1,8 @@
-
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* css 3 */
+    box-sizing: border-box; 
 }
-
-
-
 
 body{
     font-family: 'PT Sans', "sans-serif" ;
@@ -14,25 +10,18 @@ body{
 
 .container{
     width: 90%;
-    margin: auto;
-    
+    margin: auto;   
 }
 
 .list-unstyled{
-    list-style: none;
-    
+    list-style: none;    
 }
-
                                     /* header*/
-
 header{
     position: absolute;
     width: 100%;
-    z-index: 10;  
-  
+    z-index: 10;   
 }
-
-
 
 a{
     text-decoration:none;
@@ -42,13 +31,9 @@ header .header-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background-color:#17171759;
     position: fixed;
-    
-    z-index;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .header-content img{
@@ -60,9 +45,8 @@ header .header-content{
 
 .header-content nav{
     float: right;
-    margin-right: 4%;
-    
- }
+    margin-right: 4%;    
+}
 
 .header-content li{
     display: block; 
@@ -91,20 +75,13 @@ li a:hover:not(.active){
 .active{
     background-color:#4b422b ;    
 }
-
-
-
                                         /* home */
-
-.home{
-    
+.home{   
     height: 100vh;
-    width: 100%;
-    
-    background-size: cover;   /*css3*/
+    width: 100%;  
+    background-size: cover;
     position: relative;
-    animation: slideBg 15s linear infinite  ;  
-
+    animation: slideBg 10s linear infinite ;  
     animation-timing-function: ease-in-out;
     background-repeat: no-repeat;
     background-position:center center;
@@ -115,29 +92,20 @@ li a:hover:not(.active){
 @keyframes slideBg{
     0%{
         background-image: url(../images/rsz_17.jpg);
-    }
-    
-    50%{
-        background-image: url(../images/20.jpg); 
-        
-    }
-    
-    
-    
-    
-    
+    } 
+    60%{
+        background-image: url(../images/20.jpg);     
+    }  
 }
 
 .home-content{
     position: absolute;
     top:60%;
     left: 75%;
-    
     background-color: #17161855;
     width: 22%;
     height: 20%;
-    padding-top: 30px;
-    
+    padding-top: 30px;   
 }
 
 .title {
@@ -151,8 +119,6 @@ li a:hover:not(.active){
     line-height: 30px;
     text-align: center;
 } 
-
-
 
 .slider img{
     width: 70%;
@@ -179,15 +145,7 @@ li a:hover:not(.active){
     font-size: 20px;
     padding-top:30px;
 }
-
-
                                     /*footer*/
- 
-   
-
-
-
-
 .footer{
     width:100%;
     margin: auto;
@@ -230,16 +188,21 @@ li a:hover:not(.active){
 .qa ul li{
     line-height: 40px;
     list-style: none;
-    /* padding-left: 250px; */
-    /* padding-right: 150px; */
     font-size: 22px;
     color:#e3bf5e ;
-
 }
 
 .copyrights{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-right: 30px;
     color:silver ;
+}
+.colors img{
+    text-align: center;
+    height: 40px; 
+    margin-left:17.5%;
+    width: 65%; 
+    margin-bottom: -40px; 
+    border: 2px solid #e3bf5e;
 }
